@@ -1,6 +1,13 @@
 # 08 — Launch, ops, metrics
 
-## Open decisions (I need these from you)
+## Decisions made
+- **Channel name:** Little Banyan Stories (check handle availability on YouTube before registering).
+- **Language:** English narration/dialogue; Sanskrit/Hindi words as vocabulary with on-screen meanings.
+- **Voices:** open-source Kokoro, one distinct soft voice per character (`pipeline/voices.json`); human voice for shlokas if the owner records.
+- **Art:** 2.5D layered illustration in Remotion first (placeholder vector characters now; final character art to follow); soft-3D Blender renders later (docs/09).
+- **Length:** 5–10 min per episode.
+
+## Still open (I need these from you)
 1. **Channel name & language(s):** English first, Hindi audio track? Other languages?
 2. **Voice:** your own voice, a hired narrator, or open TTS (Kokoro/Piper)? (A human voice is the strongest authenticity signal.)
 3. **Art approach:** hand-illustrated, Figma/Canva, or image model with a locked character sheet? Which tools/keys do you have?

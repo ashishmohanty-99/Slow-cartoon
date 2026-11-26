@@ -1,0 +1,20 @@
+{
+  "name": "little-banyan-pipeline",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "node scripts/render.mjs",
+    "still": "remotion still src/index.ts Episode out/still.png --props=./episodes/ep001.json --frame=300 --browser-executable=/opt/pw-browsers/chromium"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.547",
+    "@remotion/cli": "4.0.547",
+    "@remotion/renderer": "4.0.547",
+    "@types/react": "18.3.32",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.547",
+    "typescript": "7.0.2"
+  }
+}

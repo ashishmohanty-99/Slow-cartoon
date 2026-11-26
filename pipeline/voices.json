@@ -1,0 +1,9 @@
+{
+ "_note": "Kokoro voice cast. Audition with: python scripts/voice.py --audition. Speed <1 = slower/softer.",
+ "narrator": {"voice": "bf_emma",     "speed": 0.86},
+ "ammatree": {"voice": "bf_emma",     "speed": 0.82},
+ "chintu":   {"voice": "af_nicole",   "speed": 0.92},
+ "mother":   {"voice": "af_heart",    "speed": 0.88},
+ "sage":     {"voice": "bm_george",   "speed": 0.84},
+ "dhara":    {"voice": "bf_isabella", "speed": 0.90}
+}

@@ -1,0 +1,327 @@
+{
+ "id": "ep001",
+ "title": "Chintu Says Thank You to Food",
+ "fps": 24,
+ "scenes": [
+  {
+   "id": "s01",
+   "bg": "sunrise",
+   "seconds": 22,
+   "narration": "Good morning, little friends. I am Amma-Tree, the old banyan. Let's take one slow breath together. In... and out.",
+   "characters": [
+    {
+     "id": "ammatree",
+     "x": 900,
+     "y": 560,
+     "scale": 1.5
+    }
+   ],
+   "caption": "Breathe in... and out"
+  },
+  {
+   "id": "s02",
+   "bg": "hut",
+   "seconds": 14,
+   "narration": "This is Chintu. Chintu is a little elephant. And Chintu is very, very hungry.",
+   "characters": [
+    {
+     "id": "chintu",
+     "x": 700,
+     "y": 640,
+     "scale": 1.2
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "bg": "hut",
+   "seconds": 12,
+   "narration": "Mother has made rice, dal, and sweet banana. It smells so good.",
+   "characters": [
+    {
+     "id": "mother",
+     "x": 1000,
+     "y": 600,
+     "scale": 1.1,
+     "flip": true
+    },
+    {
+     "id": "chintu",
+     "x": 600,
+     "y": 680,
+     "scale": 1.1
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "mother",
+     "text": "Come, Chintu. Breakfast is ready."
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "bg": "hut",
+   "seconds": 14,
+   "narration": "Chintu eats very fast. Munch, munch, munch. He does not look up. He does not smile.",
+   "characters": [
+    {
+     "id": "chintu",
+     "x": 760,
+     "y": 650,
+     "scale": 1.25
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "bg": "hut",
+   "seconds": 12,
+   "narration": "Chintu eats so fast that a grain of rice falls on the floor.",
+   "characters": [
+    {
+     "id": "chintu",
+     "x": 760,
+     "y": 650,
+     "scale": 1.25
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "bg": "sunrise",
+   "seconds": 14,
+   "narration": "Amma-Tree rustles her leaves, and asks a gentle question.",
+   "characters": [
+    {
+     "id": "ammatree",
+     "x": 1350,
+     "y": 560,
+     "scale": 1.3
+    },
+    {
+     "id": "chintu",
+     "x": 560,
+     "y": 680,
+     "scale": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "ammatree",
+     "text": "Chintu, who helped bring this rice to your plate?"
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "bg": "sunrise",
+   "seconds": 16,
+   "narration": "First, the sun came up and gave warm light to the little green plants.",
+   "characters": [
+    {
+     "id": "ammatree",
+     "x": 1500,
+     "y": 600,
+     "scale": 1.0
+    }
+   ],
+   "camera": {
+    "from": 1.0,
+    "to": 1.05
+   }
+  },
+  {
+   "id": "s08",
+   "bg": "rain",
+   "seconds": 16,
+   "narration": "Then the clouds came, and the rain fell, pitter, patter, pitter, patter.",
+   "characters": [
+    {
+     "id": "ammatree",
+     "x": 1500,
+     "y": 600,
+     "scale": 1.0
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "bg": "field",
+   "seconds": 18,
+   "narration": "A farmer planted a tiny seed, and watered it, and waited. And waited. And waited.",
+   "characters": [],
+   "camera": {
+    "from": 1.0,
+    "to": 1.04
+   }
+  },
+  {
+   "id": "s10",
+   "bg": "field",
+   "seconds": 16,
+   "narration": "The grain grew tall and golden, and the farmer cut it with care.",
+   "characters": []
+  },
+  {
+   "id": "s11",
+   "bg": "hut",
+   "seconds": 16,
+   "narration": "Mother washed the rice, and cooked it slowly, with love.",
+   "characters": [
+    {
+     "id": "mother",
+     "x": 900,
+     "y": 600,
+     "scale": 1.2
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "bg": "hut",
+   "seconds": 14,
+   "narration": "And now it is here, on Chintu's plate.",
+   "characters": [
+    {
+     "id": "chintu",
+     "x": 760,
+     "y": 650,
+     "scale": 1.25
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "bg": "hut",
+   "seconds": 14,
+   "narration": "Chintu looks at his plate. His eyes get big. His heart feels warm. That warm feeling is called thank you.",
+   "characters": [
+    {
+     "id": "chintu",
+     "x": 760,
+     "y": 650,
+     "scale": 1.3
+    }
+   ],
+   "caption": "Thank you",
+   "camera": {
+    "from": 1.0,
+    "to": 1.06
+   }
+  },
+  {
+   "id": "s14",
+   "bg": "hut",
+   "seconds": 18,
+   "narration": "Chintu folds his trunk and closes his eyes.",
+   "characters": [
+    {
+     "id": "chintu",
+     "x": 760,
+     "y": 650,
+     "scale": 1.3
+    },
+    {
+     "id": "mother",
+     "x": 1150,
+     "y": 600,
+     "scale": 1.1,
+     "flip": true
+    }
+   ],
+   "caption": "Annam \u2014 food is a blessing",
+   "lines": [
+    {
+     "speaker": "chintu",
+     "text": "Thank you, sun. Thank you, rain. Thank you, farmer. Thank you, Mother."
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "bg": "hut",
+   "seconds": 18,
+   "narration": "Now Chintu eats slowly. Chew, chew, chew. The rice tastes sweeter. Chintu smiles.",
+   "characters": [
+    {
+     "id": "chintu",
+     "x": 760,
+     "y": 650,
+     "scale": 1.3
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "bg": "river",
+   "seconds": 16,
+   "narration": "After lunch, Chintu saves a little banana for a hungry crow. Sharing says thank you too.",
+   "characters": [
+    {
+     "id": "chintu",
+     "x": 700,
+     "y": 700,
+     "scale": 1.1
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "chintu",
+     "text": "Here, little crow. This is for you."
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "bg": "sunrise",
+   "seconds": 10,
+   "narration": "Now it is your turn to think.",
+   "characters": [
+    {
+     "id": "ammatree",
+     "x": 960,
+     "y": 560,
+     "scale": 1.4
+    }
+   ],
+   "caption": "Who helped bring YOUR food today?",
+   "pause": true
+  },
+  {
+   "id": "s18",
+   "bg": "sunrise",
+   "seconds": 14,
+   "narration": "Today, before you eat, close your eyes and say thank you, softly, in your heart.",
+   "characters": [
+    {
+     "id": "ammatree",
+     "x": 960,
+     "y": 560,
+     "scale": 1.4
+    }
+   ],
+   "caption": "Say thank you before you eat"
+  },
+  {
+   "id": "s19",
+   "bg": "night",
+   "seconds": 20,
+   "narration": "Thank you for sitting with Chintu. Now let's switch off the screen, wash our hands, and go to eat with our family. Namaste.",
+   "characters": [
+    {
+     "id": "ammatree",
+     "x": 960,
+     "y": 560,
+     "scale": 1.4
+    }
+   ],
+   "caption": "Time to play, eat, and be kind",
+   "camera": {
+    "from": 1.0,
+    "to": 1.02
+   }
+  }
+ ],
+ "audio": "ep001.wav"
+}

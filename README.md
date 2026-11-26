@@ -1,4 +1,4 @@
-# Slow Cartoon — Sanatana Dharma values for children (ages 2–10)
+# Little Banyan Stories — Sanatana Dharma values for children (ages 2–10)
 
 A faceless YouTube channel of **slow, calm, parent-endorsable cartoons** that teach discipline,
 good habits, kindness and Sanatana Dharma. One episode per day. Designed as a *learning tool*,
@@ -17,4 +17,12 @@ not an addictive feed.
 | [templates/](templates) | Episode script template, metadata template |
 | [episodes/ep001-*.md](episodes) | First fully written sample episode |
 
-Status: planning + pilot script done. Next step needs the owner's decisions (see docs/08 "Open decisions").
+## Build (pipeline/)
+```
+cd pipeline && npm i
+python -m venv .venv && .venv/bin/pip install kokoro-onnx soundfile
+# download kokoro-v1.0.onnx + voices-v1.0.bin from github.com/thewh1teagle/kokoro-onnx releases into pipeline/models
+.venv/bin/python scripts/voice.py episodes/ep001.json public/ep001.wav
+node scripts/render.mjs episodes/ep001.json out/ep001.mp4     # needs Chromium: set CHROMIUM=/path
+```
+Status: strategy done; EP001 pilot (≈4.7 min, placeholder art, Kokoro voices) rendering. See docs/08 for open decisions.
